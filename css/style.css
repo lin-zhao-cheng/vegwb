@@ -1,0 +1,241 @@
+
+
+
+html{
+    background-color: #edf2c5;
+    width: 1260px; 
+    height: 930px; 
+}
+.container{
+    position: absolute;
+    max-width: 1250px;
+    max-height: 900px;
+    background-color: #edf2c5;
+}
+
+* {
+    margin: 0 auto;
+}
+/* Header */
+.header{
+    position: absolute;
+    font-family: Arial Black;
+    width: 271px;
+    height: 62px;
+    font-size: 50px;
+    color: #778a50;
+    margin: 37px 829px 781px 160px;
+
+}
+
+.btn_fb {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin: 61px 172px 795px 900px;
+}
+.btn_ig {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    margin: 61px 141px 795px 935px;
+}
+.Box{
+    border-radius : 3px;
+    color : #778A50;
+}
+.line_login {
+    position: absolute;
+    width: 1px;
+    height: 25px;
+    background-color: #778a50;
+    margin: 60px 289px 795px 970px;
+}
+
+.btn_LOGIN_box {
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    border: solid 1px #778a50;
+    margin: 60px 59px 795px 981px;
+}
+.LOGIN {
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    color: #778a50;
+    margin: 6px 8px;
+}
+.btn_JOIN_box {
+    position: absolute;
+    width: 49px;
+    height: 25px;
+    border: solid 1px #778a50;
+    margin: 60px 160px 795px 1051px;
+}
+.JOIN {
+    position: absolute;
+    width: 36px;
+    height: 15px;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    color: #778a50;
+    margin: 6px 8px;
+}
+
+.nav{
+    position: absolute;
+    width: 940px;
+    height: 44px;
+    border-radius: 3px;
+    background-color: #778a50;
+    margin: 103px 0 733px 160px;
+}
+.nav_list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.nav_list_items{
+    position: absolute;
+    list-style: none;
+    font-family: Arial Black;
+    font-size: 16px;
+    color: #edf2c5;
+    margin: 10px 0 11px 0;
+}
+.home{
+    margin-left: 30px;
+}
+.about_us{
+    margin-left: 151px;
+}
+.vegetables{
+    margin-left: 291px;
+}
+.online{
+    margin-left: 449px;
+}
+.contact{
+    margin-left: 565px;
+}
+
+.img_main_pumpkin {
+    position: absolute;
+    width: 940px;
+    height: 448px;
+    object-fit: contain;
+    margin: 170px 0 330px 160px;
+}
+.boxa{
+    position: absolute;
+    width: 444px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #778a50;
+    margin: 645px 656px 190px 160px;
+}
+.aside_veg{
+    position: absolute;
+    font-family: Arial Black;
+    font-size: 17px;
+    color: #edf2c5;
+    margin: 10px 316px 12px 30px;
+}
+.boxb{
+    position: absolute;
+    width: 444px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #778a50;
+    margin: 645px 160px 190px 656px;
+}
+.aside_con{
+    position: absolute;
+    font-family: Arial Black;
+    font-size: 15px;
+    color: #edf2c5;
+    margin: 10px 345px 12px 30px;
+}
+.box_v_img{
+    position: absolute;
+    display: flex;
+}
+.img_vegpepper {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    margin: 705px 0 0 160px;
+}
+.img_vegcarrot {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    margin: 705px 0 0 312px;
+}
+.img_vegcorn {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    margin: 705px 0 0 464px;
+}
+.boxc{
+    position: absolute;
+    width: 444px;
+    height: 140px;
+    background-color: #f7fbda;
+    margin: 705px 0 0 656px;
+}
+.p_1{
+    position: absolute;
+    width: 414px;
+    height: 44px;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #7d7d7d;
+    margin: 15px 15px 81px 15px;
+}
+.p_line{
+    position: absolute;
+    width: 414px;
+    height: 1px;
+    background-color: #7d7d7d;
+    margin: 74px 15px 65px 15px;
+}
+.p_2{
+    position: absolute;
+    width: 197px;
+    height: 35px;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 1.83;
+    color: #7d7d7d;
+    margin: 90px 232px 15px 15px;
+}
+
+.box_footer {
+    position: absolute;
+    width: 1260px;
+    height: 60px;
+    background-color: #778a50;
+    margin-top: 880px;
+}
+.footer_v{
+    position: absolute;
+    width: 301px;
+    height: 14px;
+    font-family: ArialMT Regular,Arial;
+    font-size: 12px;
+    color: #edf2c5;
+    margin: 23px 479px 23px 480px;
+}
